@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search CSU Options</title>
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    <link href="search-csu.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <label>
+      <input type="checkbox" id="showFeeds" /> Yes, I want to see the blog feeds
+    </label>
+
+    <h4>Feeds available:</h4>
+
+    <label><input type="checkbox" id="feedInsight" /> Insight (Future Students)</label>
+    <label><input type="checkbox" id="feedVc" /> Vice-Chancellor's blog </label>
+
+    <div id="status"></div>
+    <button id="save">Save my settings</button>
+
+    <script src="options.js"></script>
+    <style>
+      body {
+        margin: 2em;
+      }
+      label {
+        display: block;
+        margin-bottom: 1.5em;
+      }
+      input[type="checkbox"] {
+        display: inline;
+      }
+      button#save {
+        color: white;
+        background: #b00c1d;
+        padding: 8px 16px;
+        line-height: 16px;
+        height: 36px;
+        border-radius: 6px;
+        border: 1px solid #b00c1d;
+      }
+    </style>
+  </body>
+</html>
